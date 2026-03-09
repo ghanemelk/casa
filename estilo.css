@@ -106,3 +106,54 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.cj-card-text-bg{
+  background-image: url("azul.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+/* capa oscura para que el texto se vea */
+.cj-card-text-bg::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.4);
+}
+
+.cj-card-text-bg h5,
+.cj-card-text-bg p{
+  position:relative;
+  z-index:2;
+}
+.btn-img-bg{
+  background-image: url("azul.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border: none;
+  position: relative;
+}
+
+.btn-img-bg::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.4);
+  border-radius: inherit;
+}
+
+.btn-img-bg i,
+.btn-img-bg{
+  position: relative;
+  z-index: 2;
+}
