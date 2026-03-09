@@ -20,7 +20,7 @@ body {
     }
     .cj-banner {
       width: 100%;
-      max-height: 250px;
+      max-height: 500px;
       object-fit: cover;
     }
     .cj-banner-text h1, .cj-banner-text p {
@@ -99,4 +99,10 @@ body {
 .btn-dark:active {
     background-color: #372f94 !important;
     border-color: #372f94 !important;
+}
+#actividades{
+  background-image: url("fondo.jpg"); /* tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
