@@ -1,0 +1,102 @@
+body {
+      font-family: 'Port Lligat Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff3e0;
+      color: #333;
+    }
+    .cj-header-top {
+      background-color:  #0B81F0;
+    }
+    .cj-nav-top a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 15px;
+      transition: color 0.3s;
+    }
+    .cj-nav-top a:hover {
+      color: #222;
+    }
+    .cj-banner {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    .cj-banner-text h1, .cj-banner-text p {
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .cj-socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .cj-socials a svg {
+      width: 28px;
+      height: 28px;
+      fill: white;
+      transition: transform 0.3s, fill 0.3s;
+    }
+    .cj-socials a:hover svg {
+      transform: scale(1.2);
+      fill: #222;
+    }
+    @media (max-width: 576px) {
+      .cj-socials a svg {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  .cj-titulo-col {
+  color: #ff7a00;
+  font-weight: bold;
+}
+
+.cj-horizontal-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.cj-horizontal-img:hover {
+  transform: scale(1.05);
+}
+.cj-card-section {
+  background-color: #ff7a00; /* Fondo blanco semi-transparente */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Sombra suave */
+  padding: 30px;
+  margin-bottom: 50px; /* Separación con la siguiente sección */
+}
+/* Botones azul-morado */
+.btn-dark {
+    background-color: #0B81F0 !important;   /* azul-morado */
+    border-color: #5a4fcf !important;
+       /* texto gris oscuro */
+}
+
+
+
+/* Efecto hover */
+.btn-dark:hover {
+    background-color: #463bb3 !important;  /* más oscuro al pasar el ratón */
+    border-color: #463bb3 !important;
+    color: #222 !important;
+}
+
+/* Efecto al hacer clic */
+.btn-dark:active {
+    background-color: #372f94 !important;
+    border-color: #372f94 !important;
+}
