@@ -20,7 +20,7 @@ body {
     }
     .cj-banner {
       width: 100%;
-      max-height: 500px;
+      max-height: 800px;
       object-fit: cover;
     }
     .cj-banner-text h1, .cj-banner-text p {
